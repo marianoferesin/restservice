@@ -17,7 +17,7 @@ public class GreetingController {
     }
 
     @GetMapping("/greeting2")
-    public Integer greeting() {
-        return (1/0);
+    public Integer greeting2() {
+        return 1;
     }
 }
